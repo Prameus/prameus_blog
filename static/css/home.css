@@ -1,0 +1,159 @@
+*{
+
+}
+
+h1{
+    padding-left:65vh;
+}
+div{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+ul #container{
+    display: none;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+ul #skills{
+    display: block;
+    position: absolute;
+    right: 70px;
+    top: 60vh;
+}
+.progress-bar{
+    position: relative;
+   width: 300px;
+   height: 3vh;
+   background-color:#7EDCDC ;
+   border-radius: 1.5vh;
+}
+.progress-bar::before{
+    content: '100';
+    left: .10em;
+    top:5px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+.me{
+    position: relative;
+    right: 50vh;
+    top: 140px;
+}
+.bar{
+    width: 420px;
+    background-color: #353b48;
+    display: block;
+    height: 4px;
+    border: 1px solid rgb(0, 0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #d33c5db3;
+    
+}
+.bar span{
+    height: 10px;
+    float: left;
+    background: #e72121;
+}
+.software{
+    width:95%;
+    animation: html 2s;
+}
+.Eagerness{
+    width:100%;
+    animation: html 2s;
+}
+.Dedicated{
+    width:75%;
+    animation: html 2s;
+}
+.Communication{
+    width:95%;
+    animation: html 2s;
+}
+.biography{
+    display: flex;
+    position: absolute;
+    top: 100vh;
+    text-align: justify;
+    width: 100%;
+    right: 100px;
+}
+.biography::after{
+    content: "";
+  display: inline-block;
+  width: 200%;
+}
+.biography-title{
+    position: absolute;
+    bottom:-10px;
+    left: 100px;
+}
+.biography-paragraph{
+    position: absolute;
+    width: 120%;
+}
+.last-comment{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    top:150vh;
+    left:10vh;
+    background:linear-gradient(#439eb9,#ac8686);
+    border-radius: 10px;
+}
+.first-comment{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    top:150vh;
+    right:10vh;
+    background:linear-gradient(#439eb9,#ac8686);
+    border-radius: 10px;
+}
+.hr{
+    position: relative;
+    top: 100vh;
+    width: 300%;
+}
+.last-p{
+    position: relative;
+    top:120vh;
+}
+
+@keyframes software{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Eagerness{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Dedicated{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Communication{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}

@@ -1,0 +1,44 @@
+<head>
+    <title>Prameus</title>
+    <link href="{{ url_for('static', filename='css/home.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+    <hr />
+    <h1>THE BEST CV EVER!</h1>
+    <div>First of all, hello there (General kenobi!) ! I made this site to improve myself and make an avant-garde CV.
+        So let`s begin.
+    </div>
+    <ul id="container">
+        <li><img src="../static/images/me.jpg" height="500" width="250" class="me"></li>
+        <ul id="skills">
+            <li>
+            <h5>Software Interest</h5><span class="bar"><span class="software"></span></span>
+            </li>
+            <li>
+                <h5>Eagerness to Learn</h5><span class="bar"><span class="Eagerness"></span></span>
+            </li>
+            <li>
+                <h5>Self-Dedicated</h5><span class="bar"><span class="Dedicated"></span></span>
+            </li>
+            <li>
+                <h5>Communication Skills</h5><span class="bar"><span class="Communication"></span></span>
+            </li>
+        <ul>
+    </ul>
+    <div class="biography">
+        
+    <h2 class="biography-title" >And how did my education life goes through time? </h2>
+    <p class="biography-paragraph">When i was in highschool, i was in a marketing branch, my school was awfull but with that school i've been in europe 
+    and had to chance to work there. I saw real qualified lifes in there so i understand that i should make myself better 
+    in any way, so i got an intership at a international company then i understood how is a company works
+    then i realize you cannot do anything without fund but there was a exception that software not like it. So 
+    im here and i want to develop myself at software, specially blockchain area.
+    </p>
+    </div>
+    <button class="first-comment"><a>My Proper CV</a></button>
+    <button class="last-comment" ><a>Cool Button</a></button>
+    <hr class="hr"/>
+    <p class="last-p">I'll add some features when i got bored, till then see u</p>
+</body>
